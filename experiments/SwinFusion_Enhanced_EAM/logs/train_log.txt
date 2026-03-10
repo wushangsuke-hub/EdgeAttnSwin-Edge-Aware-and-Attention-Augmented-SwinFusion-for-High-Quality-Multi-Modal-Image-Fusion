@@ -1,0 +1,71 @@
+Training started at 2026-03-08 13:17:14
+Config: {'ir_dir': 'D:\\tkn\\SwinFusion-Enhanced\\dataset\\CT-MRI\\train\\CT', 'vi_dir': 'D:\\tkn\\SwinFusion-Enhanced\\dataset\\CT-MRI\\train\\MRI', 'exp_name': 'SwinFusion_Enhanced_EAM', 'epochs': 5000, 'batch_size': 4, 'patch_size': 128, 'lr': 0.0002, 'embed_dim': 60, 'lambda_ssim': 15, 'lambda_grad': 20, 'lambda_int': 20, 'lambda_psnr': 1, 'lambda_qabf': 2, 'use_cbam': True, 'use_edge_aware': False, 'use_se': True, 'use_multi_scale': True, 'save_freq': 10, 'patience': 20}
+
+Epoch [1/5000] Train Loss: 19.7920 Val Loss: 16.8340 SSIM: 0.5941 LR: 0.000200 Time: 8.2min
+Epoch [2/5000] Train Loss: 13.7444 Val Loss: 11.9943 SSIM: 0.4790 LR: 0.000200 Time: 16.2min
+Epoch [3/5000] Train Loss: 10.7040 Val Loss: 11.9813 SSIM: 0.3733 LR: 0.000200 Time: 24.2min
+Epoch [4/5000] Train Loss: 10.4761 Val Loss: 10.7726 SSIM: 0.3660 LR: 0.000200 Time: 32.2min
+Epoch [5/5000] Train Loss: 9.8938 Val Loss: 9.8650 SSIM: 0.3578 LR: 0.000200 Time: 40.1min
+Epoch [6/5000] Train Loss: 9.7530 Val Loss: 9.2269 SSIM: 0.3567 LR: 0.000200 Time: 48.1min
+Epoch [7/5000] Train Loss: 9.3978 Val Loss: 9.4784 SSIM: 0.3476 LR: 0.000200 Time: 56.1min
+Epoch [8/5000] Train Loss: 9.1534 Val Loss: 9.3711 SSIM: 0.3493 LR: 0.000200 Time: 64.0min
+Epoch [9/5000] Train Loss: 8.9627 Val Loss: 9.5439 SSIM: 0.3397 LR: 0.000200 Time: 71.9min
+Epoch [10/5000] Train Loss: 8.8857 Val Loss: 9.4874 SSIM: 0.3383 LR: 0.000200 Time: 79.7min
+Epoch [11/5000] Train Loss: 9.1785 Val Loss: 9.4575 SSIM: 0.3470 LR: 0.000200 Time: 87.6min
+Epoch [12/5000] Train Loss: 8.7261 Val Loss: 9.2305 SSIM: 0.3314 LR: 0.000200 Time: 95.4min
+Epoch [13/5000] Train Loss: 9.0053 Val Loss: 9.2746 SSIM: 0.3463 LR: 0.000200 Time: 103.4min
+Epoch [14/5000] Train Loss: 8.8801 Val Loss: 8.7476 SSIM: 0.3440 LR: 0.000200 Time: 111.2min
+Epoch [15/5000] Train Loss: 8.7444 Val Loss: 8.6761 SSIM: 0.3381 LR: 0.000200 Time: 119.1min
+Epoch [16/5000] Train Loss: 8.5532 Val Loss: 8.8503 SSIM: 0.3340 LR: 0.000200 Time: 127.1min
+Epoch [17/5000] Train Loss: 9.1163 Val Loss: 9.3976 SSIM: 0.3489 LR: 0.000200 Time: 134.9min
+Epoch [18/5000] Train Loss: 9.0732 Val Loss: 9.2054 SSIM: 0.3465 LR: 0.000200 Time: 142.8min
+Epoch [19/5000] Train Loss: 8.5093 Val Loss: 9.3740 SSIM: 0.3286 LR: 0.000200 Time: 150.6min
+Epoch [20/5000] Train Loss: 8.8578 Val Loss: 8.8640 SSIM: 0.3453 LR: 0.000200 Time: 158.5min
+Epoch [21/5000] Train Loss: 8.7326 Val Loss: 8.9591 SSIM: 0.3449 LR: 0.000200 Time: 166.4min
+Epoch [22/5000] Train Loss: 8.7682 Val Loss: 8.6935 SSIM: 0.3429 LR: 0.000200 Time: 174.2min
+Epoch [23/5000] Train Loss: 8.8546 Val Loss: 8.8837 SSIM: 0.3477 LR: 0.000200 Time: 182.1min
+Epoch [24/5000] Train Loss: 8.5974 Val Loss: 8.6029 SSIM: 0.3399 LR: 0.000200 Time: 189.9min
+Epoch [25/5000] Train Loss: 8.6072 Val Loss: 9.0355 SSIM: 0.3423 LR: 0.000200 Time: 197.8min
+Epoch [26/5000] Train Loss: 8.6397 Val Loss: 8.5122 SSIM: 0.3411 LR: 0.000200 Time: 205.6min
+Epoch [27/5000] Train Loss: 8.4339 Val Loss: 8.6997 SSIM: 0.3357 LR: 0.000200 Time: 213.5min
+Epoch [28/5000] Train Loss: 8.3520 Val Loss: 8.6203 SSIM: 0.3327 LR: 0.000200 Time: 221.4min
+Epoch [29/5000] Train Loss: 8.4173 Val Loss: 8.5960 SSIM: 0.3375 LR: 0.000200 Time: 229.3min
+Epoch [30/5000] Train Loss: 8.3858 Val Loss: 8.7869 SSIM: 0.3359 LR: 0.000200 Time: 237.2min
+Epoch [31/5000] Train Loss: 8.5808 Val Loss: 8.5140 SSIM: 0.3416 LR: 0.000200 Time: 245.1min
+Epoch [32/5000] Train Loss: 8.6094 Val Loss: 8.6374 SSIM: 0.3433 LR: 0.000200 Time: 252.9min
+Epoch [33/5000] Train Loss: 8.5521 Val Loss: 8.5659 SSIM: 0.3368 LR: 0.000200 Time: 260.8min
+Epoch [34/5000] Train Loss: 8.6183 Val Loss: 8.3089 SSIM: 0.3425 LR: 0.000200 Time: 268.8min
+Epoch [35/5000] Train Loss: 8.4375 Val Loss: 8.4751 SSIM: 0.3385 LR: 0.000200 Time: 276.6min
+Epoch [36/5000] Train Loss: 8.4226 Val Loss: 8.2627 SSIM: 0.3407 LR: 0.000200 Time: 284.4min
+Epoch [37/5000] Train Loss: 8.4331 Val Loss: 8.6574 SSIM: 0.3424 LR: 0.000200 Time: 292.3min
+Epoch [38/5000] Train Loss: 8.1959 Val Loss: 8.5412 SSIM: 0.3285 LR: 0.000200 Time: 300.2min
+Epoch [39/5000] Train Loss: 8.4124 Val Loss: 8.3109 SSIM: 0.3420 LR: 0.000200 Time: 308.0min
+Epoch [40/5000] Train Loss: 8.6462 Val Loss: 8.8211 SSIM: 0.3462 LR: 0.000200 Time: 315.8min
+Epoch [41/5000] Train Loss: 8.2521 Val Loss: 8.4162 SSIM: 0.3379 LR: 0.000200 Time: 323.6min
+Epoch [42/5000] Train Loss: 8.3144 Val Loss: 8.3017 SSIM: 0.3397 LR: 0.000200 Time: 331.5min
+Epoch [43/5000] Train Loss: 8.1049 Val Loss: 7.7110 SSIM: 0.3313 LR: 0.000200 Time: 339.2min
+Epoch [44/5000] Train Loss: 8.3717 Val Loss: 9.0775 SSIM: 0.3396 LR: 0.000200 Time: 347.1min
+Epoch [45/5000] Train Loss: 8.3776 Val Loss: 8.3204 SSIM: 0.3386 LR: 0.000200 Time: 355.0min
+Epoch [46/5000] Train Loss: 8.2620 Val Loss: 8.4071 SSIM: 0.3369 LR: 0.000200 Time: 362.8min
+Epoch [47/5000] Train Loss: 8.6363 Val Loss: 8.7848 SSIM: 0.3474 LR: 0.000200 Time: 370.8min
+Epoch [48/5000] Train Loss: 8.1698 Val Loss: 8.6446 SSIM: 0.3348 LR: 0.000200 Time: 378.6min
+Epoch [49/5000] Train Loss: 8.4654 Val Loss: 8.4617 SSIM: 0.3462 LR: 0.000200 Time: 386.4min
+Epoch [50/5000] Train Loss: 8.2765 Val Loss: 8.4760 SSIM: 0.3382 LR: 0.000200 Time: 394.3min
+Epoch [51/5000] Train Loss: 8.3094 Val Loss: 8.8570 SSIM: 0.3391 LR: 0.000200 Time: 402.1min
+Epoch [52/5000] Train Loss: 8.0686 Val Loss: 8.1916 SSIM: 0.3294 LR: 0.000200 Time: 409.9min
+Epoch [53/5000] Train Loss: 8.1643 Val Loss: 8.3180 SSIM: 0.3334 LR: 0.000200 Time: 417.7min
+Epoch [54/5000] Train Loss: 8.2611 Val Loss: 8.3000 SSIM: 0.3404 LR: 0.000200 Time: 425.5min
+Epoch [55/5000] Train Loss: 8.2695 Val Loss: 8.7397 SSIM: 0.3423 LR: 0.000200 Time: 433.4min
+Epoch [56/5000] Train Loss: 8.0442 Val Loss: 8.2645 SSIM: 0.3291 LR: 0.000200 Time: 441.2min
+Epoch [57/5000] Train Loss: 8.1035 Val Loss: 8.5829 SSIM: 0.3331 LR: 0.000200 Time: 449.1min
+Epoch [58/5000] Train Loss: 8.1157 Val Loss: 8.2037 SSIM: 0.3367 LR: 0.000200 Time: 457.0min
+Epoch [59/5000] Train Loss: 8.4085 Val Loss: 8.2945 SSIM: 0.3435 LR: 0.000200 Time: 464.7min
+Epoch [60/5000] Train Loss: 8.2765 Val Loss: 8.3294 SSIM: 0.3433 LR: 0.000200 Time: 472.6min
+Epoch [61/5000] Train Loss: 8.1624 Val Loss: 8.5179 SSIM: 0.3387 LR: 0.000200 Time: 480.4min
+Epoch [62/5000] Train Loss: 8.2842 Val Loss: 8.2082 SSIM: 0.3420 LR: 0.000200 Time: 488.3min
+Epoch [63/5000] Train Loss: 8.0619 Val Loss: 8.6725 SSIM: 0.3333 LR: 0.000200 Time: 496.1min
+
+Training completed at 2026-03-08 21:33:21
+Total time: 8.27 hours
+Trained for 63 epochs
+Best validation loss: 7.7110
